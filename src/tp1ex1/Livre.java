@@ -102,6 +102,19 @@ public class Livre implements Comparable<Livre> {
 	               == Double.doubleToLongBits(autre.prix);
 	}
 	
+	/*
+	 * @Override
+    public int compareTo1(Livre o) {
+
+    int resultat = autre.auteur.compareTo(this.auteur);
+
+    if (resultat == 0) {
+        resultat = autre.titre.compareTo(this.titre);
+    }
+
+    return resultat;
+}
+*/
 	@Override
     public int compareTo(Livre autre) {
 
